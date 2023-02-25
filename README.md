@@ -1,11 +1,11 @@
-About pycirclize
-================
+About pycirclize-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycirclize-feedstock/blob/main/LICENSE.txt)
 
 Home: https://moshi4.github.io/pyCirclize/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycirclize-feedstock/blob/main/LICENSE.txt)
 
 Summary: Circular visualization in Python
 
