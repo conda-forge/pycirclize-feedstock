@@ -1,5 +1,5 @@
 {% set name = "pycirclize" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycirclize-{{ version }}.tar.gz
-  sha256: e1e6f302c1e1e17acc896511b5e96866da8b35b1449a91a1aea5231f4326f0ed
+  sha256: a93e5733ead40162434f2721345016d439f6c87ecb1a6ae86ab306374919191e
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
-    - poetry-core >=1.0.0
+    - python >=3.9
+    - hatchling
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - biopython >=1.80
     - matplotlib-base >=3.6.3
     - numpy >=1.21.1
