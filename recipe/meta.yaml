@@ -1,5 +1,5 @@
 {% set name = "pycirclize" %}
-{% set version = "1.9.0" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycirclize-{{ version }}.tar.gz
-  sha256: 8b1b3ab8d69fd904503c44c6aa21493bf9eb07ae3b0db31414924e971c43454a
+  sha256: 6577760657886c06bcfab63f1c69def28de7a8c3e8af8d56042857f1ac14dc6d
 
 build:
   noarch: python
